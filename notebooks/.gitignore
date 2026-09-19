@@ -3,5 +3,3 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 *.joblib
-data/raw/*
-!data/raw/.gitkeep
