@@ -1,9 +1,10 @@
 from pathlib import Path
 import pandas as pd
 
+
 def download_dataset(
     url: str,
-    destination="data/raw/Encuesta-Nacional-a-las-MIPYMES-2023-Base-de-datos.xlsx.xlsx"
+    destination="data/raw/Encuesta-Nacional-a-las-MIPYMES-2023-Base-de-datos.xlsx"
 ) -> Path:
 
     if not url.startswith(("https://", "http://")):
